@@ -1,0 +1,19 @@
+{
+  "tabWidth": 2,
+  "singleQuote": false,
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": ["*.json", ".eslintrc"],
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}
